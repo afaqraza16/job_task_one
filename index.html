@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
+    <link href="https://fonts.cdnfonts.com/css/neue-plak" rel="stylesheet" />
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+    <style>
+      * {
+        /* outline: 2px solid blue; */
+      }
+      .afaq {
+        background: linear-gradient(
+          180deg,
+          rgba(217, 30, 39, 0) 0%,
+          rgba(0, 0, 0, 0.9) 70%
+        );
+      }
+      .raza {
+        color: linear-gradient(180deg, #e4dcdc 50%, #000000 100%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container max-w-[1920px] w-full bg-black">
+      <div class="wrapper grid grid-cols-4 lg:grid-cols-12 auto-rows-max">
+        <header
+          class="hidden bg-red text-white col-start-1 row-start-1 col-span-4 py-2 px-[100px] xl:col-span-12 xl:flex justify-between items-center"
+        >
+          <div class="icons_numbers flex">
+            <ul class="flex py-3 gap-7">
+              <li class="flex gap-2">
+                <img src="images/what_up.svg" alt="" />
+                +254 (0) 709 677 400
+              </li>
+              <li class="flex gap-2">
+                <img src="images/phone.svg" alt="" />
+                +254 (0) 709 677 400
+              </li>
+              <li class="flex gap-2">
+                <img src="images/sms.svg" alt="" />
+                info@apexloads.com
+              </li>
+            </ul>
+          </div>
+          <div class="header_menu flex relative gap-6 items-center">
+            <div id="product" class="product_elemnet mx-4">
+              Product
+              <i class="text-[12px] font-extralight fa-solid fa-angle-down"></i>
+            </div>
+            <ul
+              id="product_show"
+              class="absolute hidden left-4 top-10 flex-col gap-3 bg-red px-5 py-3"
+            >
+              <li>Search loads</li>
+              <li>Post a truck</li>
+              <li>EAC profile</li>
+            </ul>
+            <ul class="flex gap-6">
+              <li>About us</li>
+              <li>
+                Resources
+                <i
+                  class="text-[12px] font-extralight fa-solid fa-angle-down"
+                ></i>
+              </li>
+            </ul>
+            <button
+              class="font-poppins bg-white text-[#D91E27] text-[16px] rounded-3xl py-1 px-5"
+            >
+              Login
+              <i class="text-[12px] font-extralight fa-solid fa-angle-down"></i>
+            </button>
+          </div>
+        </header>
+        <nav
+          class="col-span-4 lg:col-span-12 col-start-1 row-start-2 flex items-center justify-between px-8 py-2 lg:py-4 lg:px-[100px]"
+        >
+          <div class="Logo flex items-center gap-6">
+            <img src="images/apexloads 1.svg" alt="Logo" />
+            <ul class="hidden text-white lg:flex gap-7">
+              <div
+                id="transporter"
+                class="product_elemnet hidden xl:flex items-center gap-[6px] relative ml-4 text-center"
+              >
+                Transporters
+                <i
+                  class="text-[12px] font-extralight fa-solid fa-angle-down"
+                ></i>
+                <ul
+                  id="transport"
+                  class="absolute hidden flex-col top-10 -left-6 w-40 gap-4 bg-black py-3"
+                >
+                  <li>Search loads</li>
+                  <li>Post a truck</li>
+                  <li>EAC profile</li>
+                </ul>
+              </div>
+            </ul>
+            <div
+              class="main_mene_btns hidden xl:flex justify-between items-center text-white"
+            >
+              <ul class="flex gap-6">
+                <li>
+                  Full Service Broker
+                  <i
+                    class="text-[12px] font-extralight fa-solid fa-angle-down"
+                  ></i>
+                </li>
+                <li>
+                  Freight Forwarders/Brokers
+                  <i
+                    class="text-[12px] font-extralight fa-solid fa-angle-down"
+                  ></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="btns hidden xl:flex text-white items-center gap-4">
+            <button
+              class="rounded-3xl bg-white px-6 text-[#D91E27] font-poppins font-medium py-1"
+            >
+              Pricing
+            </button>
+            <button
+              class="rounded-3xl bg-red px-6 text-white font-poppins font-light py-1"
+            >
+              Book A Free Demo
+            </button>
+          </div>
+
+          <div class="menu flex gap-4 items-center xl:hidden">
+            <img src="images/personal.svg" alt="" />
+            <div
+              class="menu_icon flex flex-col justify-between items-end w-4 h-3"
+            >
+              <div class="bar w-6 h-[2.5px] rounded-md bg-white"></div>
+              <div class="bar w-4 h-[2px] bg-white rounded-md"></div>
+              <div class="bar w-3.5 h-[2px] mr-1 bg-white rounded-md"></div>
+            </div>
+          </div>
+        </nav>
+        <main
+          class="col-span-4 lg:col-span-12 text-white relative px-8 pt-20 lg:pt-10 bg-no-repeat bg-cover col-start-1 row-start-3 lg:col-start-1 lg:flex lg:items-center lg:justify-center lg:flex-col z-40"
+        >
+          <div
+            class="side_img -z-20 absolute -left-28 top-16 lg:top-64 lg:-left-6"
+          >
+            <div class="vector_10 opacity-30 lg:opacity-100">
+              <img src="images/Vector 10.png" alt="" />
+            </div>
+            <div class="vector_9 absolute -top-40 opacity-30 lg:opacity-100">
+              <img src="images/Vector 9.png" alt="" />
+            </div>
+            <div
+              class="vector_8 absolute top-48 left-32 opacity-30 lg:opacity-100"
+            >
+              <img src="images/Vector 8.png" alt="" />
+            </div>
+            <!-- <img src="images/Group 5509.png" alt="" /> -->
+          </div>
+          <div class="head_para_btn flex lg:items-end flex-col lg:ml-20">
+            <div class="heading">
+              <h1
+                class="text-6xl lg:text-[118px] font-black uppercase leading-[62px] sm:leading-[80px] md:leading-[96px] lg:leading-[105px] xl:leading-[118px]"
+              >
+                Reliable <br />
+                Transport
+              </h1>
+            </div>
+            <div class="para">
+              <p
+                class="text-2xl lg:text-6xl text-font_para font-extrabold lg:font-bold"
+              >
+                Solutions for <br />
+                Your Freight
+              </p>
+            </div>
+            <div
+              class="text_arrow w-[280px] mt-5 lg:mt-8 mb-20 flex items-center justify-between rounded-3xl border-[2px] border-white font-poppins"
+            >
+              <button
+                class="font-poppins text-[18px] lg:font-bold px-4 lg:py-2"
+              >
+                Book Your Free Trial
+                <!-- <img src="images/arrow.svg" alt="" />
+                -->
+              </button>
+              <svg
+                class="w-[48px] h-[30px] lg:w-[56px] lg:h-[36px] text-white"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="none"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.2"
+                  d="M19 12H5m14 0-4 4m4-4-4-4"
+                />
+              </svg>
+            </div>
+          </div>
+        </main>
+
+        <picture
+          class="col-span-4 lg:col-span-12 lg:col-start-1 lg:h-[710px] lg:row-start-3 col-start-1 row-start-3"
+        >
+          <source media="(max-width: 1024px)" srcset="images/image 3.png" />
+          <img
+            class="w-full h-full object-cover"
+            src="images/image 3.png"
+            alt=""
+          />
+        </picture>
+
+        <div
+          class="about_us col-span-4 col-start-1 xl:py-16 row-start-5 xl:col-span-12 overflow-x-hidden bg-no-repeat bg-cover grid grid-cols-4 xl:grid-cols-12"
+          style="background-image: url(images/bg-about.png)"
+        >
+          <div
+            class="in_about col-span-4 xl:col-span-12 col-start-2 row-start-1 xl:col-start-8 grid grid-cols-4"
+          >
+            <div
+              class="truck_img mt-16 relative z-20 col-span-4 -ml-14 w-[380px] xl:w-[550px] xl:ml-24 xl:h-[450px] h-[342px]"
+            >
+              <img
+                class="w-full h-full object-cover"
+                src="images/pngegg (5) 2.png"
+                alt=""
+              />
+              <div class="absolute top-0 -right-44 -z-10">
+                <img src="images/side_vector.png" alt="" />
+              </div>
+              <div
+                class="absolute bottom-28 w-[122px] h-[90px] xl:h-[118px] xl:w-[187px] -z-20 right-0 xl:-right-4 xl:bottom-28"
+              >
+                <img
+                  src="images/Vector 12.png"
+                  class="w-full h-full object-cover"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="about pt-8 col-span-4 xl:col-span-7 xl:pt-16 text-white px-8 xl:pl-16 xl:pr-10"
+          >
+            <h2 class="text-3xl xl:text-7xl font-black mb-4">
+              About <span class="text-[#D91E27]">us</span>
+            </h2>
+
+            <h3 class="mb-20">
+              <span class="text-[28px] leading-9 font-bold">
+                <span class="text-[#D91E27]">Apexloads.com </span>is a premier
+                digital platform designed to revolutionize the logistics and
+                transportation industry,</span
+              >
+              with a special focus on the African market. We aim to bridge the
+              gap between shippers and truck owners, providing a seamless and
+              efficient solution to manage freight loads. Our platform is built
+              on the principles of innovation, reliability, and accessibility,
+              ensuring that all users, regardless of their location, can
+              optimize their logistics operations and drive their businesses
+              forward.
+            </h3>
+            <button
+              class="hidden xl:flex text-white border-[1px] rounded-2xl px-7 -mt-16 py-1 border-white"
+            >
+              Know more
+            </button>
+          </div>
+        </div>
+        <div
+          class="choose_us overflow-x-hidden mb-8 col-start-1 row-start-6 col-span-4 xl:col-span-12 gap-4 grid grid-cols-4 xl:grid-cols-12 px-8 xl:px-16 xl:auto-rows-max"
+        >
+          <div
+            class="text col-span-4 xl:col-span-6 xl:row-start-1 col-start-1 xl:col-start-7"
+          >
+            <h2 class="text-3xl xl:text-7xl pt-6 text-white font-extrabold">
+              Why Choose <span class="text-[#D91E27]">Us </span>
+            </h2>
+          </div>
+          <div
+            class="line hidden xl:col-start-6 relative row-start-1 xl:row-span-2 xl:flex items-start justify-center mt-40 col-span-1"
+          >
+            <img src="images/Line.png" alt="" />
+            <div class="red_ball absolute top-28">
+              <img src="images/Ellipse 2.png" alt="" />
+            </div>
+          </div>
+          <div
+            class="person_img mt-8 col-span-4 xl:row-span-2 xl:row-start-1 xl:col-span-5 col-start-1 row-start-2"
+          >
+            <img class="w-full h-full" src="images/Rectangle 30.png" alt="" />
+          </div>
+          <div
+            class="cards relative text-white col-span-4 xl:col-span-6 xl:-mt-16 xl:col-start-7 mt-8 flex flex-col gap-8"
+          >
+            <div class="absolute hidden xl:flex top-10 w-[450px] -right-56">
+              <img src="images/Ellipse 1.png" class="w-full h-full" alt="" />
+            </div>
+            <div
+              class="bg-no-repeat"
+              style="
+                background-image: url(images/Rectangle\ 43.png);
+                width: 100%;
+                height: 100%;
+                background-size: 100% 100%;
+              "
+            >
+              <div class="card1 text-white pb-5 px-3 xl:px-8 xl:py-6">
+                <h2 class="text-2xl font-semibold px-5 pt-4">
+                  <span class="font-bold text-3xl pb-4">.</span> Proven Track
+                  Record of Excellence
+                </h2>
+                <p class="px-5 pt-3">
+                  At Apex Loads, we pride ourselves on our proven track record
+                  of excellence in the logistics industry. With years of
+                  experience and a deep understanding of Africa’s unique
+                  logistical challenges, we have established ourselves as a
+                  trusted partner for businesses across the continent.
+                </p>
+              </div>
+            </div>
+            <div
+              class="relative bg-no-repeat w-full h-[300px]"
+              style="
+                background-image: url(images/Rectangle\ 43.png);
+                width: 100%;
+                height: 100%;
+                background-size: 100% 100%;
+              "
+            >
+              <div
+                class="absolute z-30 afaq w-[98%] right-0 bg-afaq h-full"
+              ></div>
+              <div class="card1 relative z-20 pb-5 px-3 xl:px-8 xl:py-6">
+                <h2 class="text-2xl font-semibold px-5 pt-4">
+                  <span class="font-bold text-3xl pb-4">.</span> Comprehensive
+                  Solutions Tailored to Your Needs
+                </h2>
+                <p class="px-5 pt-3">
+                  We offer comprehensive logistics solutions tailored to meet
+                  the specific needs of cargo owners, brokers, and shippers.
+                  Whether you are looking to optimize your supply chain,
+                  streamline operations, or enhance visibility and control, Apex
+                  Loads has the expertise and technology to deliver results.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      let product = document.querySelector("#product");
+      let product_show = document.querySelector("#product_show");
+      let transport = document.querySelector("#transport");
+      let transporter = document.querySelector("#transporter");
+
+      product.addEventListener("click", () => {
+        product_show.classList.toggle("hidden");
+      });
+      product_show.addEventListener("mouseover", () => {
+        product.classList.remove("hidden");
+      });
+      product_show.addEventListener("mouseleave", () => {
+        product_show.classList.add("hidden");
+      });
+      transporter.addEventListener("click", () => {
+        transport.classList.toggle("hidden");
+      });
+      transport.addEventListener("mouseover", () => {
+        transporter.classList.remove("hidden");
+      });
+      transport.addEventListener("mouseleave", () => {
+        transport.classList.add("hidden");
+      });
+    </script>
+  </body>
+</html>
